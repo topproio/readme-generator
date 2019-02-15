@@ -1,0 +1,27 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "readme.md generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topproio/readme-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topproio/readme-generator/issues"
+  },
+  "homepage": "https://github.com/topproio/readme-generator#readme",
+  "devDependencies": {
+    "confusing-browser-globals": "^1.0.5",
+    "eslint": "^5.13.0",
+    "eslint-config-toppro": "^1.0.6",
+    "husky": "^1.3.1",
+    "mocha": "^5.2.0"
+  }
+}
