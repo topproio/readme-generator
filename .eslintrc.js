@@ -1,7 +1,9 @@
 module.exports = {
-    "extends": "toppro",
-    "globals": {
-        "describe": true,
-        "it": true
-    },
+    'extends': 'toppro',
+    'plugins': [
+        'mocha'
+    ],
+    'env': {
+        'mocha': true
+    }
 };
